@@ -1,0 +1,17 @@
+
+spring:
+  jpa:
+    show-sql: false
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate
+
+  datasource:
+    password: 2662600
+    username: root
+    url: jdbc:mysql://localhost:3306/crypto_api?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  file:
+    name: warn.log
